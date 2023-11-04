@@ -4,7 +4,7 @@ Data Annotation and Augmentation Using LLMs
 ## Data Annotation
 
 ```python
-from llmaug import FewShotDataAnnotator, LabeledInstance
+from llmaug import FewShotAnnotator, LabeledInstance
 
 system = "You are a customer services agent for a bank that labels incoming requests with related intents"
 
